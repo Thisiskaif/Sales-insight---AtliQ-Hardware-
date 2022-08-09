@@ -25,4 +25,6 @@ Extract the data from the source into MySQL workbench after a quick data explora
 
 • Most of the transactions data are in INR currency, but we have 4 records in U$ currency.
 
-# 
+# ETL(Extract, Transform, Load)
+
+Once I know the basic features of the data I have to work with, I imported the MySQL database into Power BI to do the necessary transformations and end up with a simple, reliable, and useful dashboard.
