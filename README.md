@@ -66,3 +66,7 @@ It can be filtered by YEAR and MONTH inside the observation period, so the sales
 
 ## 2019:Revenue in terms of amount.
 ![image](https://user-images.githubusercontent.com/110671572/183749006-218c4600-5a93-4130-aab4-8773d35519c4.png)
+
+
+## 2020: Revenue in terms of percentage.
+![IMG_20220810_011332](https://user-images.githubusercontent.com/110671572/183750437-474c2761-82ba-4191-b413-1b7ca80b17a9.jpg)
