@@ -28,4 +28,15 @@ Extract the data from the source into MySQL workbench after a quick data explora
 # ETL(Extract, Transform, Load)
 
 Once I know the basic features of the data I have to work with, I imported the MySQL database into Power BI to do the necessary transformations and end up with a simple, reliable, and useful dashboard.
+# ![image](https://user-images.githubusercontent.com/110671572/183743394-084c6d0d-bacd-439a-88e0-3213582809d0.png)
 
+[sales transactions] — main table
+
+TABLES CONNECTED
+- sales customers > connected by “customer_code” column;
+- sales date> connected by “date” column;
+- sales products > connected by “product_code” column;
+- sales markets > connected by “market_code” column.
+
+# Measure created:
+“Revenue” and “Sales Qty” measures to get the sum of each column instantly in the dashboard.
