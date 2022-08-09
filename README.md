@@ -55,6 +55,10 @@ Once the company is operating only in India, Ifiltered out “Paris” and “Ne
 - The “sales_amount” column has -1 and 0 values. I removed them in this case so we can see only the actual sales numbers on the dashboard (sometimes “0” means promotional sales and giveaways, but to know that, we should have further information, which is not the case of this project).
 
 ## Dashboards: 
+After all the analysis and transformation, my data is reliable enough to build the dashboard.
 
 
+# ![image](https://user-images.githubusercontent.com/110671572/183747780-d944d9f0-eacb-47d1-9e50-7b4d12db6912.png)
 
+The dashboard shows all the main information about the company sales, such as Revenue, Sales Quantity,Revenue and Sales by Market, Revenue Trend, Top 5 Customers and Top 5 Products.
+It can be filtered by YEAR and MONTH inside the observation period, so the sales director can have a deeper and quick view of the sales to support his decision making process.
