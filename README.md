@@ -28,7 +28,7 @@ Extract the data from the source into MySQL workbench after a quick data explora
 ## ETL(Extract, Transform, Load)
 
 Once I know the basic features of the data I have to work with, I imported the MySQL database into Power BI to do the necessary transformations and end up with a simple, reliable, and useful dashboard.
-## ![image](https://user-images.githubusercontent.com/110671572/183743394-084c6d0d-bacd-439a-88e0-3213582809d0.png)
+ ![image](https://user-images.githubusercontent.com/110671572/183743394-084c6d0d-bacd-439a-88e0-3213582809d0.png)
 
 [sales transactions] — main table
 
@@ -41,14 +41,14 @@ TABLES CONNECTED
 ## Measure created:
 “Revenue” and “Sales Qty” measures to get the sum of each column instantly in the dashboard.
 
-## ![image](https://user-images.githubusercontent.com/110671572/183744238-860392f0-5157-4cbb-a609-bc08204ade60.png)
+ ![image](https://user-images.githubusercontent.com/110671572/183744238-860392f0-5157-4cbb-a609-bc08204ade60.png)
 
 ## Filtering:
 
 Filtering
 Once the company is operating only in India, Ifiltered out “Paris” and “New York” in the sales markets table by unchecking the “(blank)” field in the “zone” column.
 
-# ![image](https://user-images.githubusercontent.com/110671572/183744840-a42e3b00-e1f2-4e04-a28c-0d489918b831.png)
+ ![image](https://user-images.githubusercontent.com/110671572/183744840-a42e3b00-e1f2-4e04-a28c-0d489918b831.png)
 
 ## Cleaning and adding columns:
 - I find out that the “currency” column (sales transactions table) have 4 USD currency values, 2 of them with hidden characters, so i had to include an argument into the conditional formula, in order to create a new column called “norm_sales_amount”, where it converts the USD currency value into INR currency value.
@@ -57,8 +57,10 @@ Once the company is operating only in India, Ifiltered out “Paris” and “Ne
 ## Dashboards: 
 After all the analysis and transformation, my data is reliable enough to build the dashboard.
 
+## Total Sales:
 
-# ![image](https://user-images.githubusercontent.com/110671572/183747780-d944d9f0-eacb-47d1-9e50-7b4d12db6912.png)
+![image](https://user-images.githubusercontent.com/110671572/183747780-d944d9f0-eacb-47d1-9e50-7b4d12db6912.png)
 
 The dashboard shows all the main information about the company sales, such as Revenue, Sales Quantity,Revenue and Sales by Market, Revenue Trend, Top 5 Customers and Top 5 Products.
 It can be filtered by YEAR and MONTH inside the observation period, so the sales director can have a deeper and quick view of the sales to support his decision making process.
+
