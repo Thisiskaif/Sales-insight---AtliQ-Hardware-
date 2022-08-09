@@ -49,3 +49,12 @@ Filtering
 Once the company is operating only in India, Ifiltered out “Paris” and “New York” in the sales markets table by unchecking the “(blank)” field in the “zone” column.
 
 # ![image](https://user-images.githubusercontent.com/110671572/183744840-a42e3b00-e1f2-4e04-a28c-0d489918b831.png)
+
+## Cleaning and adding columns:
+- I find out that the “currency” column (sales transactions table) have 4 USD currency values, 2 of them with hidden characters, so i had to include an argument into the conditional formula, in order to create a new column called “norm_sales_amount”, where it converts the USD currency value into INR currency value.
+- The “sales_amount” column has -1 and 0 values. I removed them in this case so we can see only the actual sales numbers on the dashboard (sometimes “0” means promotional sales and giveaways, but to know that, we should have further information, which is not the case of this project).
+
+## Dashboards: 
+
+
+
