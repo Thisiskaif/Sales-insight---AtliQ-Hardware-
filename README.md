@@ -6,13 +6,13 @@
 The sales director is facing a lot of challenges like
 The marketing is growing dynamically and then he’s struggling in terms of tracking the sales, needing more accurate insights about the company sales, and then take the necessary decisions.
 
-# Imagine the scenario:
+## Imagine the scenario:
 
 The sales director need to know how the sales are going in all operations and the information provided by the regional sales managers are not being enough.
 Just hearing the numbers or receive tons of excel files is far from being effective in terms of having a reliable overview of the business.
 Instead, he want to be able to  look at the data and understand what’s going on right away.
 
-# Findings:
+## Findings:
 Extract the data from the source into MySQL workbench after a quick data exploration in MySQL, here are some initial findings:
 
 • The database contains 5 tables: customers, date, markets, products, and transactions.
@@ -25,10 +25,10 @@ Extract the data from the source into MySQL workbench after a quick data explora
 
 • Most of the transactions data are in INR currency, but we have 4 records in U$ currency.
 
-# ETL(Extract, Transform, Load)
+## ETL(Extract, Transform, Load)
 
 Once I know the basic features of the data I have to work with, I imported the MySQL database into Power BI to do the necessary transformations and end up with a simple, reliable, and useful dashboard.
-# ![image](https://user-images.githubusercontent.com/110671572/183743394-084c6d0d-bacd-439a-88e0-3213582809d0.png)
+## ![image](https://user-images.githubusercontent.com/110671572/183743394-084c6d0d-bacd-439a-88e0-3213582809d0.png)
 
 [sales transactions] — main table
 
@@ -38,5 +38,13 @@ TABLES CONNECTED
 - sales products > connected by “product_code” column;
 - sales markets > connected by “market_code” column.
 
-# Measure created:
+## Measure created:
 “Revenue” and “Sales Qty” measures to get the sum of each column instantly in the dashboard.
+
+## ![image](https://user-images.githubusercontent.com/110671572/183744238-860392f0-5157-4cbb-a609-bc08204ade60.png)
+
+## Filtering:
+
+Filtering
+Once the company is operating only in India, Ifiltered out “Paris” and “New York” in the sales markets table by unchecking the “(blank)” field in the “zone” column.
+
