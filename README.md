@@ -48,3 +48,4 @@ TABLES CONNECTED
 Filtering
 Once the company is operating only in India, Ifiltered out “Paris” and “New York” in the sales markets table by unchecking the “(blank)” field in the “zone” column.
 
+# ![image](https://user-images.githubusercontent.com/110671572/183744840-a42e3b00-e1f2-4e04-a28c-0d489918b831.png)
